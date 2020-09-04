@@ -1,0 +1,335 @@
+/*body{
+	margin: 0px;
+	padding: 0;
+	font-family:  sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background:#be3144;
+  margin-bottom: -53px;
+  
+}
+
+
+.nav_item{
+	display: inline;
+	padding: 20px;	
+	font-size: 1.5rem;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+}
+
+.welcome-section h1{
+	color: white;
+	font-size: 4rem;
+	padding: 16px;
+}
+
+.welcome-section p{
+	color: #be3144;
+	font-size: 2rem;
+	margin-top: -30px;
+	font-weight: 200;
+}
+
+
+.welcome-section{
+	width: 100%;
+	background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 580px;
+    margin-top: 1px;
+    text-align: center;
+   
+}
+
+.projects{
+	background-color: #45567d;
+	height: 1350px;
+}
+
+.projects h1{
+	color: white;
+	padding:10% 10% 5% 10%;
+	text-align: center;
+
+} 
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 1%;
+}
+
+img{
+	height: 400px;
+	width: 400px;
+}
+
+.project-title{
+	background-color: #303841;
+	text-align: center;
+	padding: 30px;
+	width: 341px;
+	margin-top: -4px;
+
+	
+}
+
+.show_all{
+	color:white;
+	text-align:center;
+	padding: 10px;
+	background-color: #303841;
+	width: 10%;
+	margin-left: 43%;
+}
+
+.footer{
+	background-color: #303841;
+	width: 100%;
+	height: 500px;
+}
+
+.footer h1{
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.footer p{
+	color: white;
+	text-align: center;
+
+}
+
+.footer_content{
+
+}
+*/
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list{
+	width: 100vw;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #002b80;
+	margin-right:3rem;
+}
+
+.nav-list li{
+	list-style: none;
+}
+
+.nav-list a{
+	display: block;
+	font-family: arial;
+	padding: 2rem;
+	color: #e6e6e6;
+	font-size: 1.5em;
+	text-decoration: none
+}
+
+.nav-list a:hover{
+	background-color: black;
+}
+
+.nav-list ul{
+	display: flex;
+
+}
+
+.welcome-section{
+	display:flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+	width:100vw;
+	height: 100vh;
+	background-color: #e6e6e6;
+	
+}
+
+.welcome-section h1{
+	color: #002b80;
+	/*text-align: center;*/
+	font-weight: 600;
+	font-size: 5rem;
+	padding: 0;
+	margin: 0;
+}
+
+.welcome-section p{
+	font-size: 2rem;
+	font-weight: 200;
+	font-style: italic;
+	padding: 0;
+	margin:0;
+}
+
+.project-section{
+	text-align: center;
+	padding: 5rem 2rem 5rem 2rem;
+}
+
+.project-header-section{
+	max-width: 600px;
+	margin:0 auto 6rem auto;
+	border-bottom: 0.2rem solid;
+}
+
+h2{
+	font-size: 2.5rem;
+	font-family: arial;
+	/*text-align: center;*/
+	color: #002b80;
+}
+
+.projects-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.project-tile{
+	background-color: #00004d;
+	font-size: 1.5rem;
+	padding: 2rem 0.5rem 2rem 0.5rem;
+	font-family: arial;
+	text-decoration: none;
+	cursor: pointer;
+	max-width: 438px;
+	margin:0 auto;
+	color: #e6e6e6;
+	
+}
+
+.project-title{
+	text-decoration: none;
+}
+
+
+img{
+	width: 36vw;
+	/*height: 100px;*/
+}
+
+.btn{
+	display: inline-block;
+	padding: 1rem 2rem 1rem 2rem;
+	border-radius: 5px;
+	margin-top: 4rem;
+
+	
+}
+
+.btn-show-more{
+	font-size: 1.5rem;
+	background-color: #00004d;
+	color: #e6e6e6;
+	font-family: arial;
+	text-decoration: none;
+}
+
+.contact-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 60%;
+	background-color: #002b80;
+	padding-top: 2rem;
+
+}
+
+
+.contact-section-header{
+
+	color:#e6e6e6;
+	text-align:center;
+	line-height: 3rem;
+}
+
+#contact h2{
+	color: #e6e6e6;
+	font-size: 3rem;
+}
+
+#contact p{
+	font-family: arial;
+	font-style:italic;
+	font-size: 1.3rem;
+}
+
+.contact-links{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 980px;
+	margin-top: 3rem;
+	flex-wrap: wrap;
+}
+
+.contact-links a{
+	font-size: 1.8rem;
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+.contact-detaols{
+	font-size: 20rem;
+}
+
+.new1{
+	width: 100%;
+	border :3px solid white;
+	
+}
+
+#footer {
+ 
+
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-evenly;
+	color: white;
+	padding: 2rem;
+	width: 100%;
+
+}
+
+#footer p{
+	font-size: 1rem;
+	
+}
+
+#p2{
+	margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

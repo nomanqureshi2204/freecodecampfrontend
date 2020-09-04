@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+
+h1{
+	font-family: sans-serif;;
+	font-size: 50px;
+}
+
+#image{
+	height: 700px;
+	max-width: 100%;
+}
+
+h2{
+	color: green;
+	font-size:20px;
+}
+
+#img-caption{
+	font-family: sans-serif;
+}
+
+p{
+	font-family: helvetica;
+}
+
+#tribute-link{
+	font-family: helvetica;
+}

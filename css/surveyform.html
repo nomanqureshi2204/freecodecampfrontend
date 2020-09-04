@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">this is the short description</p>
+
+	<form id="survey-form">
+		<label for="name" id="name-label">Name : </label>
+		<input type="text" name="" id="name" placeholder="Enter Name"><br><br>
+
+		<label for="email" id="email-label">Email : </label>
+		<input type="email" name="" id="email" placeholder="Enter Email"><br><br>
+
+
+		<label for="age" id="number-label">Age : </label>
+		<input type="number" name="" id="age" min="1" max="15" placeholder="Enter Age" required><br><br>
+
+		<label for="dropdown">Which option best describes your current role?</label>
+		<select id="dropdown">
+			<option value="value1">Value1</option>
+			<option value="value2">Value2</option>
+			<option value="value3">Value3</option>
+			<option value="value4">Value4</option>
+			<option value="value5">Value5</option>
+		</select><br><br>
+
+		<label for="">Would you recommend freeCodeCamp to a friend?</label><br><br>
+		<input type="radio" id="Definitely" name="recommend" value="Definitely">
+		<label>Definitely</label><br><br>
+		<input type="radio" id="Maybe" name="recommend" value="Maybe">
+		<label>Maybe</label><br><br>
+		<input type="radio" id="Not sure" name="recommend" value="Not sure">
+		<label>Not sure</label><br><br>
+
+		<p>What would you like to see improved? (Check all that apply)</p>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Front-end Projects</label><br><br>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Back-end Projects</label><br><br>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Data Visualization</label><br><br>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Challenges</label><br><br>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Open Source Community</label><br><br>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Gitter help rooms</label><br><br>
+
+		<input type="checkbox" name="" id="" value="">
+		<label for="">Videos</label><br><br>
+		
+		<label>Any comments or suggestions?</label><br><br>
+		<textarea id="review" rows="5" cols="50" placeholder="Enter your comments here"></textarea><br><br>
+
+		<button type="submit" id="submit "value="submit">Submit</button>
+	</form>
+
+</body>
+</html>

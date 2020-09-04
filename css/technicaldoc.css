@@ -1,0 +1,14 @@
+#main-doc{
+	display: flex;
+	/*flex-direction: column;*/
+	background-color: yellow;
+}
+
+#navbar_div{
+	width: 30%;
+	background-color: blue;
+}
+
+.main-section{
+	width:30%;
+}
